@@ -25,6 +25,10 @@ const config = {
         mulish: ["var(--font-mulish)", ...fontFamily.sans],
       },
       colors: {
+        submit: {
+          DEFAULT: "hsl(var(--submit))",
+          foreground: "hsl(var(--submit-foreground))",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
