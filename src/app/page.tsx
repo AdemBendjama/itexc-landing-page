@@ -1,3 +1,4 @@
+import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 export default function Home() {
   return (
@@ -12,11 +13,26 @@ export default function Home() {
           />
           <ul className="flex items-center gap-[1.25rem] font-poppins text-base">
             <li>Home</li>
-            <li>Services</li>
-            <li>Our Teams</li>
-            <li>Digito</li>
-            <li>Consulting</li>
-            <li>More</li>
+            <li className="flex gap-[5px] items-center">
+              <span>Services</span>
+              <ChevronDown size={14} />
+            </li>
+            <li className="flex gap-[5px] items-center">
+              <span>Our Teams</span>
+              <ChevronDown size={14} />
+            </li>
+            <li className="flex gap-[5px] items-center">
+              <span>Digito</span>
+              <ChevronDown size={14} />
+            </li>
+            <li className="flex gap-[5px] items-center">
+              <span>Consulting</span>
+              <ChevronDown size={14} />
+            </li>
+            <li className="flex gap-[5px] items-center">
+              <span>More</span>
+              <ChevronDown size={14} />
+            </li>
           </ul>
         </div>
         <div></div>
