@@ -6,7 +6,7 @@ import Image from "next/image";
 function Navbar() {
   return (
     <div className="h-[4.28rem] flex justify-between items-center font-poppins">
-      <div className="flex gap-[1.25rem]">
+      <div className="flex gap-[1.25rem] items-center">
         <Image
           src="/ITEXC-GROUP-V-WORDMARK.svg"
           alt="watermark"
@@ -37,7 +37,7 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <div className="flex gap-[1.25rem]">
+      <div className="flex gap-[1.25rem] items-center">
         <div className="flex gap-[10px] items-center">
           <PhoneIcon width={24} height={24} className="stroke-black" />
           <span className="text-base">+213 23747979</span>
