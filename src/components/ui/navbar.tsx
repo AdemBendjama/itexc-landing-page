@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Navbar() {
   return (
-    <div className="h-[4.28rem] flex justify-between items-center font-poppins">
+    <div className="xl:w-[1240px] xl:mx-auto h-[4.28rem] flex justify-between items-center font-poppins">
       <div className="flex gap-[1.25rem] items-center">
         <Image
           src="/ITEXC-GROUP-V-WORDMARK.svg"

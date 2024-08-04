@@ -1,6 +1,6 @@
 function Logo3D() {
   return (
-    <div className="h-[25rem]">
+    <div className="h-[400px]">
       <iframe
         src="https://my.spline.design/itexclogo-99d672ac558ea04e4981221b778201eb/"
         width="100%"
