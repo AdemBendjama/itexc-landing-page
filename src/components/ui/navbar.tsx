@@ -15,25 +15,25 @@ function Navbar() {
         />
         <ul className="flex items-center gap-[1.25rem] text-base">
           <li>Home</li>
-          <li className="flex gap-[5px] items-center">
+          <li className="flex gap-[3px] items-center">
             <span>Services</span>
-            <ChevronDown size={14} />
+            <ChevronDown size={12} />
           </li>
-          <li className="flex gap-[5px] items-center">
+          <li className="flex gap-[3px] items-center">
             <span>Our Teams</span>
-            <ChevronDown size={14} />
+            <ChevronDown size={12} />
           </li>
-          <li className="flex gap-[5px] items-center">
+          <li className="flex gap-[3px] items-center">
             <span>Digito</span>
-            <ChevronDown size={14} />
+            <ChevronDown size={12} />
           </li>
-          <li className="flex gap-[5px] items-center">
+          <li className="flex gap-[3px] items-center">
             <span>Consulting</span>
-            <ChevronDown size={14} />
+            <ChevronDown size={12} />
           </li>
-          <li className="flex gap-[5px] items-center">
+          <li className="flex gap-[3px] items-center">
             <span>More</span>
-            <ChevronDown size={14} />
+            <ChevronDown size={12} />
           </li>
         </ul>
       </div>
@@ -42,9 +42,9 @@ function Navbar() {
           <PhoneIcon width={24} height={24} className="stroke-black" />
           <span className="text-base">+213 23747979</span>
         </div>
-        <div className="flex gap-[5px] items-center">
+        <div className="flex gap-[3px] items-center">
           <span className="font-semibold">Username</span>
-          <ChevronDown size={14} strokeWidth={3} />
+          <ChevronDown size={12} strokeWidth={4} />
         </div>
         <Button
           variant="submit"
