@@ -1,4 +1,16 @@
+"use client";
 import Image from "next/image";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
+var settings = {
+  dots: false,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+};
 
 function WhatWeDoSection() {
   return (
@@ -22,11 +34,30 @@ function WhatWeDoSection() {
             <span className="font-normal text-[1.125rem] leading-[150%]">
               Specialized Divisions for Targeted Excellence
             </span>
-            <div></div>
+            <Slider {...settings}>
+              <div>
+                <h3>1</h3>
+              </div>
+              <div>
+                <h3>2</h3>
+              </div>
+              <div>
+                <h3>3</h3>
+              </div>
+              <div>
+                <h3>4</h3>
+              </div>
+              <div>
+                <h3>5</h3>
+              </div>
+              <div>
+                <h3>6</h3>
+              </div>
+            </Slider>
             <span className="font-normal text-[1.125rem] leading-[150%]">
               We offer diverse expertise through dedicated teams, each focused
-              on a distinct field to precisely meet our clients' varied needs
-              and deliver exceptional results.
+              on a distinct field to precisely meet our clients varied needs and
+              deliver exceptional results.
             </span>
           </div>
         </div>
