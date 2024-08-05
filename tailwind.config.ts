@@ -31,6 +31,10 @@ const config = {
       },
       boxShadow: {
         "video-drop": "0 10px 25px 0 rgba(0, 0, 0, 0.25)",
+        "card-hrexc-drop": "0 4px 70px 0 rgba(0, 0, 0, 0.25)",
+      },
+      objectPosition: {
+        hrexc: "50px -85px",
       },
       colors: {
         submit: {
@@ -48,6 +52,10 @@ const config = {
         gray: {
           DEFAULT: "hsl(var(--gray))",
           foreground: "hsl(var(--gray-foreground))",
+        },
+        cyan: {
+          DEFAULT: "hsl(var(--cyan))",
+          foreground: "hsl(var(--cyan-foreground))",
         },
         "video-overlay": "rgba(27,54,246,0.48)",
         border: "hsl(var(--border))",

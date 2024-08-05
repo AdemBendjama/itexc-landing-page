@@ -1,4 +1,5 @@
 import AboutUsSection from "./about-us-section";
+import HrexcSection from "./hrexc-section";
 import OdooPartnerSection from "./odoo-partner-section";
 import OpeningSection from "./opening-section";
 import SoftwareDevSection from "./software-dev-section";
@@ -12,6 +13,7 @@ function Sections() {
       <SoftwareDevSection />
       <WhatWeDoSection />
       <OdooPartnerSection />
+      <HrexcSection />
     </>
   );
 }
