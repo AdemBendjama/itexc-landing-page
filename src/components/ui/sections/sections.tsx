@@ -1,6 +1,7 @@
 import AboutUsSection from "./about-us-section";
 import OpeningSection from "./opening-section";
-import SoftwareDevSection from "./section-dev-section";
+import SoftwareDevSection from "./software-dev-section";
+import WhatWeDoSection from "./what-we-do-section";
 
 function Sections() {
   return (
@@ -8,6 +9,7 @@ function Sections() {
       <OpeningSection />
       <AboutUsSection />
       <SoftwareDevSection />
+      <WhatWeDoSection />
     </>
   );
 }
