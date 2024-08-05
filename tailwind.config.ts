@@ -37,9 +37,19 @@ const config = {
           DEFAULT: "hsl(var(--submit))",
           foreground: "hsl(var(--submit-foreground))",
         },
+        "submit-second": {
+          DEFAULT: "hsl(var(--submit-second))",
+          foreground: "hsl(var(--submit-second-foreground))",
+        },
+        blue: {
+          DEFAULT: "hsl(var(--blue))",
+          foreground: "hsl(var(--blue-foreground))",
+        },
+        gray: {
+          DEFAULT: "hsl(var(--gray))",
+          foreground: "hsl(var(--gray-foreground))",
+        },
         "video-overlay": "rgba(27,54,246,0.48)",
-        "gray-background": "hsl(var(--gray-background))",
-        "blue-background": "hsl(var(--blue-background))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

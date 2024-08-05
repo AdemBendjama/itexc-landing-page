@@ -4,10 +4,14 @@
 
 @layer base {
   :root {
-    --submit: 233 92% 54%;
+    --submit: 237 92% 54%;
     --submit-foreground: 0 0% 100%;
-    --blue-background: 233 92% 45%;
-    --gray-background: 210 11% 15%;
+    --submit-second: 233 92% 54%;
+    --submit-second-foreground: 0 0% 100%;
+    --blue: 233 92% 45%;
+    --blue-foreground: 0 0% 100%;
+    --gray: 210 11% 15%;
+    --gray-foreground: 0 0% 100%;
   }
 }
 

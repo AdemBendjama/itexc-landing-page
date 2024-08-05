@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function OpeningSection() {
   return (
-    <div className="bg-blue-background text-white">
+    <div className="bg-blue text-white">
       <div className="h-[333px] py-[5rem] flex gap-[5rem] items-center 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
         <div className="flex-1">
           <span className="text-[3.5rem] font-bold leading-[120%]">

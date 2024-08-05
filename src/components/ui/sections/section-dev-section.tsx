@@ -19,7 +19,7 @@ function SoftwareDevSection() {
           </span>
           <div className="flex gap-[1.5rem] pt-[1rem]">
             <Button
-              variant="blue"
+              variant="submit-second"
               className="flex gap-[0.75rem] h-[3rem] px-[1.5rem] py-[0.75rem] rounded-[150px] text-base font-semibold"
             >
               Start your project
