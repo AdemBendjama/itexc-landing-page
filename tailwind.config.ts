@@ -38,6 +38,7 @@ const config = {
           foreground: "hsl(var(--submit-foreground))",
         },
         "video-overlay": "rgba(27,54,246,0.48)",
+        "gray-background": "hsl(var(--gray-background))",
         "blue-background": "hsl(var(--blue-background))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

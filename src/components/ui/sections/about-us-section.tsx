@@ -22,7 +22,7 @@ function AboutUsSection() {
           industries.
         </span>
       </div>
-      <div className="flex justify-center h-[319px] w-screen absolute mx-auto inset-0 top-[317px]">
+      <div className="flex justify-center h-[320px] w-screen absolute mx-auto inset-0 top-[317px] z-10">
         <div className="flex items-center justify-center h-full w-[770px] bg-video-overlay shadow-video-drop relative rounded-[20px]">
           <Image
             src="/about-us-video.jpg"

@@ -9,6 +9,8 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        gray: "bg-gray-background text-white hover:bg-gray-background/90",
+        blue: "bg-blue-background text-white hover:bg-blue-background/90",
         black: "bg-black text-white hover:bg-black/90",
         white: "bg-white text-black hover:bg-white/90",
         submit: "bg-submit text-submit-foreground hover:bg-submit/90",
