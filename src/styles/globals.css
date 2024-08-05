@@ -5,7 +5,8 @@
 @layer base {
   :root {
     --submit: 233 92% 54%;
-    --submit-foreground: 0 0% 100%
+    --submit-foreground: 0 0% 100%;
+    --blue-background: 233 92% 45%;
   }
 }
 

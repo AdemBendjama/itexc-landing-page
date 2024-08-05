@@ -34,6 +34,7 @@ const config = {
           DEFAULT: "hsl(var(--submit))",
           foreground: "hsl(var(--submit-foreground))",
         },
+        "blue-background": "hsl(var(--blue-background))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
