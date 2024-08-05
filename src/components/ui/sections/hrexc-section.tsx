@@ -66,7 +66,7 @@ function HrexcSection() {
               src="/hrexc-mobile-asset.jpg"
               alt="mobile hrexc design"
               fill={true}
-              className="object-cover object-hrexc overflow-hidden rounded-[20px]"
+              className="object-cover rounded-[20px]"
             />
           </div>
         </div>

@@ -33,9 +33,6 @@ const config = {
         "video-drop": "0 10px 25px 0 rgba(0, 0, 0, 0.25)",
         "card-hrexc-drop": "0 4px 70px 0 rgba(0, 0, 0, 0.25)",
       },
-      objectPosition: {
-        hrexc: "50px -85px",
-      },
       colors: {
         submit: {
           DEFAULT: "hsl(var(--submit))",
