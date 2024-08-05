@@ -3,6 +3,7 @@ import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { Avatar, AvatarFallback, AvatarImage } from "../avatar";
 
 var settings = {
   dots: false,
@@ -24,9 +25,9 @@ function WhatWeDoSection() {
           className="absolute top-0"
         />
         <div className="h-full flex items-center justify-center">
-          <div className="w-[688px] flex flex-col text-center">
+          <div className="w-[43rem] flex flex-col items-center justify-center gap-[0.5rem] text-center">
             <span className="font-semibold text-[3rem] leading-[150%]">
-              EXPOLRE OUR{" "}
+              EXPLORE OUR{" "}
               <span className="bg-gradient-to-r from-[#3CCCAE] via-[#F47B2E] to-[#FE0F9E] bg-clip-text text-transparent">
                 GROUP
               </span>
@@ -34,26 +35,58 @@ function WhatWeDoSection() {
             <span className="font-normal text-[1.125rem] leading-[150%]">
               Specialized Divisions for Targeted Excellence
             </span>
-            <Slider {...settings}>
-              <div>
-                <h3>1</h3>
-              </div>
-              <div>
-                <h3>2</h3>
-              </div>
-              <div>
-                <h3>3</h3>
-              </div>
-              <div>
-                <h3>4</h3>
-              </div>
-              <div>
-                <h3>5</h3>
-              </div>
-              <div>
-                <h3>6</h3>
-              </div>
-            </Slider>
+            <div className="w-[38rem]">
+              <Slider {...settings}>
+                <div>
+                  <div className="flex items-center justify-center w-[7rem] h-[7rem]">
+                    <Avatar className="w-[5.25rem] h-[5.25rem]">
+                      <AvatarImage src="https://github.com/shadcn.png" />
+                      <AvatarFallback>CN</AvatarFallback>
+                    </Avatar>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex items-center justify-center w-[7rem] h-[7rem]">
+                    <Avatar className="w-[5.25rem] h-[5.25rem]">
+                      <AvatarImage src="https://github.com/shadcn.png" />
+                      <AvatarFallback>CN</AvatarFallback>
+                    </Avatar>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex items-center justify-center w-[7rem] h-[7rem]">
+                    <Avatar className="w-[5.25rem] h-[5.25rem]">
+                      <AvatarImage src="https://github.com/shadcn.png" />
+                      <AvatarFallback>CN</AvatarFallback>
+                    </Avatar>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex items-center justify-center w-[7rem] h-[7rem]">
+                    <Avatar className="w-[5.25rem] h-[5.25rem]">
+                      <AvatarImage src="https://github.com/shadcn.png" />
+                      <AvatarFallback>CN</AvatarFallback>
+                    </Avatar>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex items-center justify-center w-[7rem] h-[7rem]">
+                    <Avatar className="w-[5.25rem] h-[5.25rem]">
+                      <AvatarImage src="https://github.com/shadcn.png" />
+                      <AvatarFallback>CN</AvatarFallback>
+                    </Avatar>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex items-center justify-center w-[7rem] h-[7rem]">
+                    <Avatar className="w-[5.25rem] h-[5.25rem]">
+                      <AvatarImage src="https://github.com/shadcn.png" />
+                      <AvatarFallback>CN</AvatarFallback>
+                    </Avatar>
+                  </div>
+                </div>
+              </Slider>
+            </div>
             <span className="font-normal text-[1.125rem] leading-[150%]">
               We offer diverse expertise through dedicated teams, each focused
               on a distinct field to precisely meet our clients varied needs and
