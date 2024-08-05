@@ -2,8 +2,10 @@
 import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "@/styles/slider-arrows.css";
 import Slider from "react-slick";
 import { Avatar, AvatarFallback, AvatarImage } from "../avatar";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 var settings = {
   dots: false,
@@ -11,6 +13,8 @@ var settings = {
   speed: 500,
   slidesToShow: 5,
   slidesToScroll: 1,
+  nextArrow: <ChevronRight size={28} color="#ffffff" />,
+  prevArrow: <ChevronLeft size={28} color="#ffffff" />,
 };
 
 function WhatWeDoSection() {
