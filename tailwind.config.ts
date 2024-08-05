@@ -29,11 +29,15 @@ const config = {
         poppins: ["var(--font-poppins)", ...fontFamily.sans],
         mulish: ["var(--font-mulish)", ...fontFamily.sans],
       },
+      boxShadow: {
+        "video-drop": "0 10px 25px 0 rgba(0, 0, 0, 0.25)",
+      },
       colors: {
         submit: {
           DEFAULT: "hsl(var(--submit))",
           foreground: "hsl(var(--submit-foreground))",
         },
+        "video-overlay": "rgba(27,54,246,0.48)",
         "blue-background": "hsl(var(--blue-background))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
