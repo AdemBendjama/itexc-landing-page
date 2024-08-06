@@ -1,4 +1,5 @@
 import AboutUsSection from "./about-us-section";
+import AcademySection from "./academy-section";
 import BrandexcSection from "./brandexc-section";
 import HrexcSection from "./hrexc-section";
 import OdooPartnerSection from "./odoo-partner-section";
@@ -16,6 +17,7 @@ function Sections() {
       <OdooPartnerSection />
       <HrexcSection />
       <BrandexcSection />
+      <AcademySection />
     </>
   );
 }
