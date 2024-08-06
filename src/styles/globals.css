@@ -4,6 +4,10 @@
 
 @layer base {
   :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    --ring: 0 0% 70%;
+    --checkbox: 0 0% 50%;
     --submit: 237 92% 54%;
     --submit-foreground: 0 0% 100%;
     --submit-second: 233 92% 54%;
@@ -16,6 +20,12 @@
     --cyan-foreground: 0 0% 100%;
     --orange: 30 92% 53%;
     --orange-foreground: 0 0% 100%;
+    --input: 0 0 85%;
+    --destructive: 0 100% 30%;
+    --destructive-foreground: 213.8 5% 90%;
+    --muted: 175.8 30% 85%;
+    --muted-foreground: 213.8 5% 35%;
+
   }
 }
 

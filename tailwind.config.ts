@@ -63,6 +63,7 @@ const config = {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
+        checkbox: "hsl(var(--checkbox))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {

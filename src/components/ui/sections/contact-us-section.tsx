@@ -1,7 +1,9 @@
+import ContactUsForm from "@/components/forms/contact-us-form";
+
 function ContactUsSection() {
   return (
     <div className="bg-white text-black">
-      <div className="pt-[9.5rem] pb-[3.125rem] px-[2.125rem] flex gap-[3rem] h-[69rem] 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
+      <div className="pt-[8rem] pb-[3.125rem] px-[2.125rem] flex gap-[3rem] 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
         <div className="w-[48rem] flex flex-col gap-[1.875rem]">
           <div className="flex flex-col gap-[1.5rem]">
             <span className="text-[3rem] font-normal leading-[120%]">
@@ -12,7 +14,9 @@ function ContactUsSection() {
               We will get back to you within 48 hours
             </span>
           </div>
-          <div></div>
+          <div className="w-[35rem]">
+            <ContactUsForm />
+          </div>
         </div>
         <div className="w-[26.75rem] flex flex-col gap-[1.25rem]">
           <span className="text-[2rem] font-semibold leading-[150%]">
