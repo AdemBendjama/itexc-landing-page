@@ -1,25 +1,6 @@
 import type { Metadata } from "next";
-import { Mulish, Poppins, Roboto } from "next/font/google";
 import "@/styles/globals.css";
-import { cn } from "@/lib/utils";
-
-const roboto = Roboto({
-  subsets: ["latin"],
-  weight: ["100", "300", "400", "500", "700", "900"],
-  variable: "--font-roboto",
-});
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-poppins",
-});
-
-const mulish = Mulish({
-  subsets: ["latin"],
-  weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-mulish",
-});
+import Body from "@/components/ui/body";
 
 export const metadata: Metadata = {
   title: "ITEXC Group | Persue excellence",
@@ -33,16 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={cn(
-          "min-h-screen bg-background font-roboto antialiased",
-          roboto.variable,
-          poppins.variable,
-          mulish.variable
-        )}
-      >
-        {children}
-      </body>
+      <Body>{children}</Body>
     </html>
   );
 }
