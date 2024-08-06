@@ -34,6 +34,7 @@ const config = {
         "card-hrexc-drop": "0 4px 70px 0 rgba(0, 0, 0, 0.25)",
       },
       colors: {
+        pink: "hsl(30,100%,98%)",
         submit: {
           DEFAULT: "hsl(var(--submit))",
           foreground: "hsl(var(--submit-foreground))",
@@ -53,6 +54,10 @@ const config = {
         cyan: {
           DEFAULT: "hsl(var(--cyan))",
           foreground: "hsl(var(--cyan-foreground))",
+        },
+        orange: {
+          DEFAULT: "hsl(var(--orange))",
+          foreground: "hsl(var(--orange-foreground))",
         },
         "video-overlay": "rgba(27,54,246,0.48)",
         border: "hsl(var(--border))",

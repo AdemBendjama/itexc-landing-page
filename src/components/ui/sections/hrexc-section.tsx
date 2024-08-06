@@ -28,7 +28,7 @@ function HrexcSection() {
                 variant="cyan"
                 className="flex gap-[0.5rem] h-[44px] px-[1.25rem] py-[0.625rem] rounded-[150px] text-base leading-[1.5rem] font-semibold"
               >
-                Get consulting
+                Get Consulting
               </Button>
               <Button
                 variant="gray"
