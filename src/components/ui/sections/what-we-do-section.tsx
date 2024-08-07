@@ -21,15 +21,13 @@ function WhatWeDoSection() {
   return (
     <div className="bg-submit-second text-submit-foreground font-poppins">
       <div className="h-[500px] relative 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
-        <Image
-          src="/group-mark.svg"
-          alt="group mark img"
-          width={150}
-          height={210}
-          className="absolute top-0"
-        />
+        <div className="absolute top-0">
+          <div className="lg:w-[9.375rem] lg:h-[13.125rem] sm:w-[8.125rem] sm:h-[11.25rem] w-[6.25rem] h-[8.75rem] relative">
+            <Image src="/group-mark.svg" alt="group mark img" fill={true} />
+          </div>
+        </div>
         <div className="h-full flex items-center justify-center">
-          <div className="w-[43rem] flex flex-col items-center justify-center gap-[0.5rem] text-center">
+          <div className="z-10 w-[43rem] flex flex-col items-center justify-center gap-[0.5rem] text-center">
             <span className="font-semibold text-[3rem] leading-[150%]">
               EXPLORE OUR{" "}
               <span className="bg-gradient-to-r from-[#3CCCAE] via-[#F47B2E] to-[#FE0F9E] bg-clip-text text-transparent">
