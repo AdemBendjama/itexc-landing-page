@@ -15,20 +15,33 @@ function OpeningSection() {
             </span>
           </span>
         </div>
-        <div className="sm:flex-1 sm:text-left text-center flex flex-col lg:gap-[1.5rem] sm:gap-2">
+        <div className="sm:flex-1 sm:text-left text-center flex flex-col lg:gap-[1.5rem] gap-2">
           <div>
             <span className="sm:text-[18px] text-base font-normal leading-[150%]">
               Empowering businesses with cutting-edge software development,
               design, and system integration
             </span>
           </div>
-          <div className="flex sm:justify-start justify-center sm:gap-[1rem] gap-1 pt-[1rem]">
+          <div className="flex sm:justify-start justify-center sm:gap-[1rem] gap-2 pt-[1rem]">
             <Button
               variant="black"
               className="flex gap-[0.75rem] sm:h-[3rem] h-10 sm:px-[1.5rem] px-4 py-[0.75rem] rounded-[150px] sm:text-base text-sm font-normal"
             >
               Estimate your project
-              <Image alt="logo" src="/LOGO-WHITE.svg" width={24} height={24} />
+              <Image
+                alt="logo"
+                src="/LOGO-WHITE.svg"
+                width={24}
+                height={24}
+                className="sm:block hidden"
+              />
+              <Image
+                alt="logo"
+                src="/LOGO-WHITE.svg"
+                width={16}
+                height={16}
+                className="sm:hidden block"
+              />
             </Button>
             <Button
               variant="white"
