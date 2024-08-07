@@ -5,14 +5,14 @@ import { ArrowRight } from "lucide-react";
 function BrandexcSection() {
   return (
     <div className="bg-pink text-black font-poppins relative overflow-hidden">
-      <div className="flex items-center h-[37.5rem] 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
+      <div className="flex items-center sm:h-[37.5rem] py-16 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
         <div className="absolute -bottom-[130px] -right-[120px]">
           <div className="w-[29rem] h-[22rem] relative">
             <Image
               src="/3d-orange-ball.svg"
               alt="3d orange ball"
               fill={true}
-              className="object-cover"
+              className="object-cover sm:opacity-100 opacity-50"
             />
           </div>
         </div>
@@ -29,15 +29,15 @@ function BrandexcSection() {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-[1.25rem]">
+        <div className="flex flex-col lg:gap-[1.25rem] gap-4 z-10">
           <span className="text-base font-semibold leading-[150%]">
             BRANDING AND DESIGN
           </span>
-          <span className="text-[2.5rem] font-bold leading-[3.75rem]">
+          <span className="sm:text-[2.5rem] text-[1.5rem] font-bold leading-[120%]">
             BRANDS DESIGNED TO
             <br />
             TRANSFORM WITH{" "}
-            <span className="text-[3.125rem] bg-gradient-to-r from-[#F47B2E] to-[#FE0F9E] bg-clip-text text-transparent">
+            <span className="sm:text-[3.125rem] text-[2.5rem] sm:leading-[120%] leading-[150%] bg-gradient-to-r from-[#F47B2E] to-[#FE0F9E] bg-clip-text text-transparent">
               BRANDEXC
             </span>
           </span>
