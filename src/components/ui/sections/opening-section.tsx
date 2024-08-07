@@ -4,9 +4,9 @@ import Image from "next/image";
 function OpeningSection() {
   return (
     <div className="bg-blue text-white">
-      <div className="h-[333px] py-[5rem] flex gap-[5rem] items-center 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
-        <div className="flex-1">
-          <span className="text-[3.5rem] font-bold leading-[120%]">
+      <div className="h-[333px] sm:py-[5rem] py-8 flex sm:flex-row flex-col lg:gap-[5rem] gap-8 items-center 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
+        <div className="sm:flex-1">
+          <span className="lg:text-[3.5rem] sm:text-[2.5rem] text-[2rem] font-bold leading-[120%]">
             Pursue excellence
             <br />
             with{" "}
@@ -15,24 +15,24 @@ function OpeningSection() {
             </span>
           </span>
         </div>
-        <div className="flex-1 flex flex-col gap-[1.5rem]">
+        <div className="sm:flex-1 sm:text-left text-center flex flex-col lg:gap-[1.5rem] sm:gap-2">
           <div>
-            <span className="text-[18px] font-normal leading-[150%]">
+            <span className="sm:text-[18px] text-base font-normal leading-[150%]">
               Empowering businesses with cutting-edge software development,
               design, and system integration
             </span>
           </div>
-          <div className="flex gap-[1rem] pt-[1rem]">
+          <div className="flex sm:justify-start justify-center sm:gap-[1rem] gap-1 pt-[1rem]">
             <Button
               variant="black"
-              className="flex gap-[0.75rem] h-[3rem] px-[1.5rem] py-[0.75rem] rounded-[150px] text-base font-normal"
+              className="flex gap-[0.75rem] sm:h-[3rem] h-10 sm:px-[1.5rem] px-4 py-[0.75rem] rounded-[150px] sm:text-base text-sm font-normal"
             >
               Estimate your project
               <Image alt="logo" src="/LOGO-WHITE.svg" width={24} height={24} />
             </Button>
             <Button
               variant="white"
-              className="h-[3rem] px-[1.5rem] py-[0.75rem] rounded-[150px] text-base font-normal"
+              className="sm:h-[3rem] h-10 sm:px-[1.5rem] px-4 py-[0.75rem] rounded-[150px] sm:text-base text-sm font-normal"
             >
               About us
             </Button>
