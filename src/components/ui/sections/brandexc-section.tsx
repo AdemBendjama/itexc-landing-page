@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 function BrandexcSection() {
   return (
     <div className="bg-pink text-black font-poppins relative overflow-hidden">
-      <div className="flex items-center sm:h-[37.5rem] py-16 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
+      <div className="flex items-center sm:h-[37.5rem] py-16 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] sm:mx-[1.5rem] mx-[1rem]">
         <div className="absolute -bottom-[130px] -right-[120px]">
           <div className="w-[29rem] h-[22rem] relative">
             <Image

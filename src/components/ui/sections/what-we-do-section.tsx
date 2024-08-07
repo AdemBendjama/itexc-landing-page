@@ -29,7 +29,7 @@ var settings = {
 function WhatWeDoSection() {
   return (
     <div className="bg-submit-second text-submit-foreground font-poppins">
-      <div className="h-[500px] relative 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
+      <div className="h-[500px] relative 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] sm:mx-[1.5rem] mx-[1rem]">
         <div className="absolute top-0">
           <div className="lg:w-[9.375rem] lg:h-[13.125rem] sm:w-[7rem] sm:h-[9rem] w-[3rem] h-[4rem] relative">
             <Image src="/group-mark.svg" alt="group mark img" fill={true} />

@@ -4,7 +4,7 @@ import Image from "next/image";
 function OpeningSection() {
   return (
     <div className="bg-blue text-white">
-      <div className="h-[333px] sm:py-[5rem] py-8 flex sm:flex-row flex-col lg:gap-[5rem] sm:gap-4 gap-10 items-center 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
+      <div className="h-[333px] sm:py-[5rem] py-8 flex sm:flex-row flex-col lg:gap-[5rem] sm:gap-4 gap-10 items-center 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] sm:mx-[1.5rem] mx-[1rem]">
         <div className="sm:flex-1">
           <span className="lg:text-[3.5rem] sm:text-[2.5rem] text-[2rem] font-bold leading-[120%]">
             Pursue excellence

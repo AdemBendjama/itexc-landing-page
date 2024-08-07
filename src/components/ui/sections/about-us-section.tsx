@@ -4,7 +4,7 @@ import Image from "next/image";
 function AboutUsSection() {
   return (
     <div className="relative">
-      <div className="h-[477px] xs:pt-[100px] pt-8 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
+      <div className="h-[477px] xs:pt-[100px] pt-8 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] sm:mx-[1.5rem] mx-[1rem]">
         <Image
           src="/about-us-bg.jpg"
           alt="background image"

@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 function AcademySection() {
   return (
     <div className="bg-white text-black">
-      <div className="flex justify-between lg:gap-[5rem] gap-4 lg:py-[7.5rem] sm:py-24 py-16 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
+      <div className="flex justify-between lg:gap-[5rem] gap-4 lg:py-[7.5rem] sm:py-24 py-16 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] sm:mx-[1.5rem] mx-[1rem]">
         <div className="flex-1 flex flex-col gap-[1.25rem]">
           <div className="flex flex-col gap-[2rem]">
             <div className="flex flex-col gap-[1rem]">

@@ -4,7 +4,7 @@ import { Button } from "../button";
 function HrexcSection() {
   return (
     <div className="bg-white text-black font-poppins">
-      <div className="sm:h-[72.125rem] sm:pb-0 pb-8 flex flex-col gap-[3.75rem] 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
+      <div className="sm:h-[72.125rem] sm:pb-0 pb-8 flex flex-col gap-[3.75rem] 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] sm:mx-[1.5rem] mx-[1rem]">
         <div className="sm:h-[37.5rem] lg:pt-[7rem] sm:py-0 pb-8 pt-16 items-center flex gap-4 justify-between">
           <div className="flex-1 flex flex-col gap-[0.625rem]">
             <span className="font-semibold text-base leading-[150%]">
