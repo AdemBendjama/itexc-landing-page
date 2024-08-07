@@ -4,7 +4,7 @@ import { Button } from "../button";
 function HrexcSection() {
   return (
     <div className="bg-white text-black font-poppins">
-      <div className="h-[72.125rem] flex flex-col gap-[3.75rem] 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
+      <div className="sm:h-[72.125rem] sm:pb-0 pb-8 flex flex-col gap-[3.75rem] 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
         <div className="sm:h-[37.5rem] lg:pt-[7rem] sm:py-0 pb-8 pt-16 items-center flex gap-4 justify-between">
           <div className="flex-1 flex flex-col gap-[0.625rem]">
             <span className="font-semibold text-base leading-[150%]">
@@ -49,12 +49,12 @@ function HrexcSection() {
             </div>
           </div>
         </div>
-        <div className="h-[27rem] mx-[3.125rem] rounded-[20px] shadow-card-hrexc-drop flex items-center justify-between">
-          <div className="flex flex-col gap-[1.25rem] w-[36.625rem] p-[3.75rem]">
-            <span className="text-[3.125rem] font-semibold leading-[130%] text-gray">
+        <div className="xl:h-[27rem] lg:h-[24rem] md:h-[22rem] sm:h-[20rem] h-auto xl:mx-[3.125rem] rounded-[20px] shadow-card-hrexc-drop flex sm:flex-row flex-col items-center justify-between">
+          <div className="flex flex-col xl:gap-[1.25rem] gap-4 sm:flex-1 py-[3.75rem] lg:pl-[3.75rem] md:pl-[3rem] sm:pl-[2.5rem] px-[2rem] pt-10">
+            <span className="xl:text-[3.125rem] lg:text-[2.75rem] md:text-[2.25rem] sm:text-[2rem] text-[1.75rem] font-semibold leading-[130%] text-gray">
               Looking for a Job?
             </span>
-            <span className="text-[20px] font-normal leading-[150%] text-gray">
+            <span className="lg:text-[1.25rem] sm:text-base font-normal leading-[150%] text-gray">
               Discover a fresh approach to job searching with our user-friendly
               HREXC App. This helpful platform connects you to great career
               opportunities and our supportive team.
@@ -68,12 +68,20 @@ function HrexcSection() {
               </div>
             </div>
           </div>
-          <div className=" w-[36.625rem] h-full relative">
+          <div className="sm:block hidden flex-1 h-full w-full relative">
             <Image
               src="/hrexc-mobile-asset.jpg"
               alt="mobile hrexc design"
               fill={true}
-              className="object-cover rounded-[20px]"
+              className="sm:object-fill object-contain object-bottom rounded-[20px]"
+            />
+          </div>
+          <div className="sm:hidden h-[15rem] w-full relative">
+            <Image
+              src="/hrexc-mobile-asset-2.jpg"
+              alt="mobile hrexc design"
+              fill={true}
+              className="object-contain object-bottom"
             />
           </div>
         </div>
