@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 function OdooPartnerSection() {
   return (
     <div className="font-poppins text-black relative">
-      <div className="sm:text-left text-center flex sm:flex-row flex-col items-center justify-center xl:gap-[7.5rem] lg:gap-12 sm:gap-4 gap-8 sm:h-[600px] h-auto sm:pb-0 pb-8 sm:pt-[4rem] pt-12 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
+      <div className="sm:text-left text-center flex sm:flex-row flex-col items-center justify-center xl:gap-[7.5rem] lg:gap-12 sm:gap-4 gap-8 sm:h-[600px] h-auto sm:pb-0 pb-8 sm:pt-0 pt-12 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
         <Image
           src="/odexc-background.svg"
           alt="background icons"

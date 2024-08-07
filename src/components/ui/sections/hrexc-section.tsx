@@ -5,12 +5,12 @@ function HrexcSection() {
   return (
     <div className="bg-white text-black font-poppins">
       <div className="h-[72.125rem] flex flex-col gap-[3.75rem] 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
-        <div className="h-[37.5rem] pt-[7rem] items-center flex justify-between">
-          <div className="w-[570px] flex flex-col gap-[0.625rem]">
+        <div className="sm:h-[37.5rem] lg:pt-[7rem] sm:py-0 pb-8 pt-16 items-center flex gap-4 justify-between">
+          <div className="flex-1 flex flex-col gap-[0.625rem]">
             <span className="font-semibold text-base leading-[150%]">
               CORPERATE MANAGMENT
             </span>
-            <span className="font-bold text-[3rem] leading-[150%] text-gray">
+            <span className="font-bold lg:text-[3rem] sm:text-[2.5rem] text-[2rem] leading-[120%] text-gray">
               The{" "}
               <span className="bg-gradient-to-b from-[#acfff5] to-[#26c7b4] bg-clip-text text-transparent">
                 HREXC
@@ -38,8 +38,15 @@ function HrexcSection() {
               </Button>
             </div>
           </div>
-          <div className="w-[570px] h-[430px] relative">
-            <Image src="/hrexc-stock-img.jpg" alt="stock image" fill={true} />
+          <div className="sm:flex-1 sm:flex hidden justify-center">
+            <div className="xl:w-[31rem] xl:h-[22rem] lg:w-[28rem] lg:h-[20rem] md:w-[22rem] md:h-[15rem] sm:w-[21rem] sm:h-[14rem] w-[18.5rem] h-[13rem] relative">
+              <Image
+                src="/hrexc-stock-img.jpg"
+                alt="stock image"
+                fill={true}
+                className="rounded-[8px]"
+              />
+            </div>
           </div>
         </div>
         <div className="h-[27rem] mx-[3.125rem] rounded-[20px] shadow-card-hrexc-drop flex items-center justify-between">
