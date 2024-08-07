@@ -3,10 +3,10 @@ import ContactUsForm from "@/components/forms/contact-us-form";
 function ContactUsSection() {
   return (
     <div className="bg-white text-black">
-      <div className="pt-[8rem] pb-[3.125rem] px-[2.125rem] flex gap-[3rem] 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
-        <div className="w-[48rem] flex flex-col gap-[1.875rem]">
-          <div className="flex flex-col gap-[1.5rem]">
-            <span className="text-[3rem] font-normal leading-[120%]">
+      <div className="lg:pt-[8rem] sm:pt-24 pt-16 pb-12 sm:px-[2.125rem] sm:flex-row flex-col flex gap-[3rem] 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
+        <div className="basis-2/3 flex flex-col gap-[1.875rem]">
+          <div className="flex flex-col sm:gap-[1.5rem] gap-4">
+            <span className="lg:text-[3rem] sm:text-[2.5rem] text-[2rem] font-normal leading-[120%]">
               Still Need Help ?<br />
               <span className="font-bold">Contact us</span>
             </span>
@@ -14,11 +14,11 @@ function ContactUsSection() {
               We will get back to you within 48 hours
             </span>
           </div>
-          <div className="w-[35rem]">
+          <div className="w-full">
             <ContactUsForm />
           </div>
         </div>
-        <div className="w-[26.75rem] flex flex-col gap-[1.25rem]">
+        <div className="basis-1/3 flex flex-col gap-[1.25rem]">
           <span className="text-[2rem] font-semibold leading-[150%]">
             Find Us
           </span>
