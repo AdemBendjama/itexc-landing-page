@@ -4,7 +4,7 @@ import Image from "next/image";
 function AboutUsSection() {
   return (
     <div className="relative">
-      <div className="h-[477px] xs:pt-[100px] pt-8 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] sm:mx-[1.5rem] mx-[1rem]">
+      <div className="sm:h-[30rem] h-[25rem] sm:pt-[6.25rem] pt-[4rem] 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] sm:mx-[1.5rem] mx-[1rem]">
         <Image
           src="/about-us-bg.jpg"
           alt="background image"
@@ -23,7 +23,7 @@ function AboutUsSection() {
             industries.
           </span>
         </div>
-        <div className="flex justify-center lg:h-[320px] sm:h-[270px] h-[200px] w-screen absolute mx-auto inset-0 sm:top-[317px] top-[370px] z-10">
+        <div className="flex justify-center lg:h-[320px] sm:h-[270px] h-[200px] w-screen absolute mx-auto inset-0 sm:top-[19.8125rem] top-[18rem] z-10">
           <div className="flex items-center justify-center h-full lg:w-[770px] sm:w-[600px] xs:w-[420px] w-[85%] bg-video-overlay shadow-video-drop relative rounded-[20px]">
             <Image
               src="/about-us-video.jpg"
