@@ -5,19 +5,21 @@ import { ArrowRight } from "lucide-react";
 function OdooPartnerSection() {
   return (
     <div className="font-poppins text-black relative">
-      <div className="flex items-center justify-center gap-[7.5rem] h-[600px] pt-[4rem] 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
+      <div className="sm:text-left text-center flex sm:flex-row flex-col items-center justify-center xl:gap-[7.5rem] lg:gap-12 sm:gap-4 gap-8 sm:h-[600px] h-auto sm:pb-0 pb-8 sm:pt-[4rem] pt-12 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
         <Image
           src="/odexc-background.svg"
           alt="background icons"
           fill={true}
           className="object-cover -z-10 bg-white"
         />
-        <div className="w-[603px] h-[407.5px] relative">
-          <Image src="/Odoo-asset.svg" alt="odoo logo" fill={true} />
+        <div className="sm:flex-1 flex justify-center">
+          <div className="xl:w-[31rem] xl:h-[22rem] lg:w-[28rem] lg:h-[20rem] md:w-[23rem] md:h-[16rem] sm:w-[22rem] sm:h-[15rem] w-[18.5rem] h-[13rem] relative">
+            <Image src="/Visuals.png" alt="odoo logo" fill={true} />
+          </div>
         </div>
-        <div className="w-[35.625rem] flex flex-col gap-[2.5rem]">
+        <div className="sm:flex-1 flex flex-col lg:gap-[2.5rem] gap-7">
           <div className="flex flex-col gap-[1.25rem]">
-            <span className="font-bold text-[3rem] leading-[130%]">
+            <span className="font-bold lg:text-[3rem] sm:text-[2.5rem] text-[2rem] leading-[130%]">
               Official Odoo Partner
             </span>
             <span className="font-normal text-[1.125rem] leading-[150%]">
@@ -29,7 +31,7 @@ function OdooPartnerSection() {
               business needs{" "}
             </span>
           </div>
-          <div>
+          <div className="sm:block flex justify-center">
             <Button
               variant="gray"
               className="flex gap-[0.5rem] h-[3.75rem] px-[3.125rem] py-[1rem] rounded-[63px] text-lg leading-[1.5rem] font-semibold"
