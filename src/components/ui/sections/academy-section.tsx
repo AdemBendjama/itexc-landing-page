@@ -5,15 +5,15 @@ import { ArrowRight } from "lucide-react";
 function AcademySection() {
   return (
     <div className="bg-white text-black">
-      <div className="flex justify-between gap-[5rem] py-[7.5rem] h-[50rem] 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
-        <div className="flex flex-col gap-[1.25rem]">
+      <div className="flex justify-between lg:gap-[5rem] gap-4 lg:py-[7.5rem] sm:py-24 py-16 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] mx-[1rem]">
+        <div className="flex-1 flex flex-col gap-[1.25rem]">
           <div className="flex flex-col gap-[2rem]">
             <div className="flex flex-col gap-[1rem]">
               <span className="font-poppins text-base font-semibold leading-[150%]">
                 LEARNERS AND STUDENTS
               </span>
               <div className="flex flex-col gap-[1.25rem]">
-                <span className="font-poppins text-[3rem] font-bold leading-[120%]">
+                <span className="font-poppins lg:text-[3rem] sm:text-[2.5rem] text-[2rem] font-bold leading-[120%]">
                   You can learn anything.
                   <br />
                   With{" "}
@@ -76,13 +76,13 @@ function AcademySection() {
             </Button>
           </div>
         </div>
-        <div className="flex items-center justify-center">
-          <div className="relative w-[33.5625rem] h-[27.375rem]">
+        <div className="flex-1 sm:flex hidden items-center justify-center">
+          <div className="relative w-full h-full">
             <Image
               src="/academy.svg"
               alt="itexc acedemy design"
               fill={true}
-              className="object-cover"
+              className="object-contain"
             />
           </div>
         </div>
