@@ -7,14 +7,46 @@ import Slider from "react-slick";
 import { Avatar, AvatarFallback, AvatarImage } from "../avatar";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
+interface ArrowProps {
+  className?: string;
+  style?: React.CSSProperties;
+  onClick?: () => void;
+}
+
+const NextArrow = (props: ArrowProps) => {
+  const { className, style, onClick } = props;
+  return (
+    <ChevronRight
+      className={className}
+      style={{ ...style }}
+      onClick={onClick}
+      size={28}
+      color="#ffffff"
+    />
+  );
+};
+
+const PrevArrow = (props: ArrowProps) => {
+  const { className, style, onClick } = props;
+  return (
+    <ChevronLeft
+      className={className}
+      style={{ ...style }}
+      onClick={onClick}
+      size={28}
+      color="#ffffff"
+    />
+  );
+};
+
 var settings = {
   dots: false,
   infinite: true,
   speed: 500,
   slidesToShow: 5,
   slidesToScroll: 1,
-  nextArrow: <ChevronRight size={28} color="#ffffff" />,
-  prevArrow: <ChevronLeft size={28} color="#ffffff" />,
+  nextArrow: <NextArrow />,
+  prevArrow: <PrevArrow />,
   responsive: [
     {
       breakpoint: 641,

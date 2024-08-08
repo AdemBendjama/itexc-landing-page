@@ -16,6 +16,7 @@ function Logo3D() {
           alt="itexc logo 3d design"
           fill={true}
           className="object-contain"
+          sizes="100vw"
         />
       </div>
     </div>
