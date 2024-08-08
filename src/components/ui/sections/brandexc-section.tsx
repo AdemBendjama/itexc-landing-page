@@ -6,8 +6,8 @@ function BrandexcSection() {
   return (
     <div className="bg-pink text-black font-poppins relative overflow-hidden">
       <div className="flex items-center sm:h-[37.5rem] py-16 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] sm:mx-[1.5rem] mx-[1rem]">
-        <div className="absolute -bottom-[130px] -right-[120px]">
-          <div className="w-[29rem] h-[22rem] relative">
+        <div className="absolute sm:-bottom-[130px] sm:-right-[120px] -bottom-[50px] -right-[60px]">
+          <div className="sm:w-[29rem] sm:h-[22rem] w-[16rem] h-[12rem] relative">
             <Image
               src="/3d-orange-ball.svg"
               alt="3d orange ball"
@@ -16,11 +16,8 @@ function BrandexcSection() {
             />
           </div>
         </div>
-        <div
-          style={{ left: "calc(50% - 195px)" }}
-          className="absolute -bottom-[75px]"
-        >
-          <div className="w-[24.375rem] h-[525px] relative">
+        <div className="absolute left-1/2 transform -translate-x-1/2 -bottom-[75px]">
+          <div className="sm:w-[24.375rem] sm:h-[32.8125rem] w-[16.375rem] h-[24.8125rem] relative">
             <Image
               src="/b-pink-letter.png"
               alt="B logo"
@@ -29,6 +26,7 @@ function BrandexcSection() {
             />
           </div>
         </div>
+
         <div className="flex flex-col lg:gap-[1.25rem] gap-4 z-10">
           <span className="text-base font-semibold leading-[150%]">
             BRANDING AND DESIGN

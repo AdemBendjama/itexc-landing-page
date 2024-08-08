@@ -50,7 +50,7 @@ function HrexcSection() {
           </div>
         </div>
         <div className="xl:h-[27rem] lg:h-[24rem] md:h-[22rem] sm:h-[20rem] h-auto xl:mx-[3.125rem] rounded-[20px] shadow-card-hrexc-drop flex sm:flex-row flex-col items-center justify-between">
-          <div className="flex flex-col xl:gap-[1.25rem] gap-4 sm:flex-1 py-[3.75rem] lg:pl-[3.75rem] md:pl-[3rem] sm:pl-[2.5rem] px-[2rem] pt-10">
+          <div className="flex flex-col xl:gap-[1.25rem] gap-4 sm:flex-1 py-[3.75rem] lg:pl-[3.75rem] md:pl-[3rem] sm:pl-[2.5rem] px-[1.5rem] pt-10">
             <span className="xl:text-[3.125rem] lg:text-[2.75rem] md:text-[2.25rem] sm:text-[2rem] text-[1.75rem] font-semibold leading-[130%] text-gray">
               Looking for a Job?
             </span>
@@ -59,11 +59,11 @@ function HrexcSection() {
               HREXC App. This helpful platform connects you to great career
               opportunities and our supportive team.
             </span>
-            <div className="flex gap-[1.25rem]">
-              <div className="w-[7.5rem] h-[2.5rem] relative">
+            <div className="flex sm:gap-[1.25rem] gap-2">
+              <div className="sm:w-[7.5rem] sm:h-[2.5rem] w-[7rem] h-[2.375rem] relative">
                 <Image src="/play-store.png" alt="store button" fill={true} />
               </div>
-              <div className="w-[7.5rem] h-[2.5rem] relative">
+              <div className="sm:w-[7.5rem] sm:h-[2.5rem] w-[7rem] h-[2.375rem] relative">
                 <Image src="/app-store.png" alt="store button" fill={true} />
               </div>
             </div>
