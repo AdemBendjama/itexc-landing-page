@@ -59,14 +59,14 @@ function SoftwareDevSection() {
         <div className="sm:hidden w-full flex gap-2">
           <Button
             variant="submit-second"
-            className="flex gap-2 h-[2.875rem] px-5 rounded-[150px] text-sm font-semibold"
+            className="flex gap-2 h-[2.875rem] px-5 rounded-[150px] xs:text-sm text-xs font-semibold"
           >
             Start your project
             <Image alt="logo" src="/LOGO-WHITE.svg" width={16} height={16} />
           </Button>
           <Button
             variant="gray"
-            className="h-[2.875rem] px-5 rounded-[150px] text-sm font-semibold"
+            className="h-[2.875rem] px-5 rounded-[150px] xs:text-sm text-xs font-semibold"
           >
             Learn more
           </Button>

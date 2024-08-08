@@ -26,13 +26,13 @@ function HrexcSection() {
             <div className="flex gap-[0.625rem] mt-[1.25rem]">
               <Button
                 variant="cyan"
-                className="flex gap-[0.5rem] h-[44px] px-[1.25rem] py-[0.625rem] rounded-[150px] text-base leading-[1.5rem] font-semibold"
+                className="flex gap-[0.5rem] h-[44px] px-[1.25rem] py-[0.625rem] rounded-[150px] sm:text-base text-sm leading-[1.5rem] font-semibold"
               >
                 Get Consulting
               </Button>
               <Button
                 variant="gray"
-                className="flex gap-[0.5rem] h-[44px] px-[1.25rem] py-[0.625rem] rounded-[150px] text-base leading-[1.5rem] font-semibold"
+                className="flex gap-[0.5rem] h-[44px] px-[1.25rem] py-[0.625rem] rounded-[150px] sm:text-base text-sm leading-[1.5rem] font-semibold"
               >
                 Learn More
               </Button>
