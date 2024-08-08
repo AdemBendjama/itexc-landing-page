@@ -5,7 +5,7 @@ import Sections from "@/components/ui/sections/sections";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col">
       <Navbar />
       <Logo3D />
       <Sections />
