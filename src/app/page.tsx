@@ -8,13 +8,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       <Navbar />
-      {/* <Suspense
-        fallback={
-          <div className="sm:h-[500px] h-[300px] w-screen mt-[4.375rem]" />
-        }
-      >
-        <Logo3D />
-      </Suspense> */}
+      <Logo3D />
       <Sections />
       <Footer />
     </div>
