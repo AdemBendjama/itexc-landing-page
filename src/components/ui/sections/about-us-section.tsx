@@ -24,17 +24,26 @@ function AboutUsSection() {
             industries.
           </span>
         </div>
-        <div className="flex justify-center lg:h-[320px] sm:h-[270px] xs:h-[200px] h-[140px] w-screen absolute mx-auto inset-0 sm:top-[19.8125rem] xs:top-[21.5rem] top-[23.5rem]">
-          <div className="flex items-center justify-center h-full lg:w-[770px] sm:w-[600px] xs:w-[420px] w-[85%] shadow-video-drop relative rounded-[20px]">
+        <div className="flex justify-center lg:h-[320px] sm:h-[270px] xs:h-[200px] h-[140px] w-full absolute mx-auto inset-0 sm:top-[19.8125rem] xs:top-[21.5rem] top-[23.5rem]">
+          <div className="flex items-center justify-center h-full lg:w-[770px] sm:w-[600px] xs:w-[420px] w-[85%] shadow-video-drop relative rounded-xl overflow-hidden">
             <Image
               src="/about-us-video.jpg"
               alt="about us video"
               fill={true}
-              className="rounded-[20px]"
               sizes="(min-width: 1024px) 770px, (min-width: 640px) 600px, (min-width: 480px) 420px, 85vw"
             />
-            <PlayVideoIcon width={70} height={70} className="z-10" />
-            <div className="absolute inset-0 bg-video-overlay z-10 rounded-[20px]"></div>
+            <PlayVideoIcon
+              width={70}
+              height={70}
+              className="z-20 absolute animate-pulse"
+              aria-disabled
+            />
+            <PlayVideoIcon
+              width={80}
+              height={78}
+              className="z-30 absolute animate-pulse"
+            />
+            <div className="absolute inset-0 bg-video-overlay z-10"></div>
           </div>
         </div>
       </div>

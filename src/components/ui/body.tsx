@@ -26,7 +26,7 @@ function Body({ children }: { children: React.ReactNode }) {
     <body
       className={cn(
         `min-h-screen bg-background font-roboto antialiased ${
-          isSideBarOpenRoot && "fixed"
+          isSideBarOpenRoot && "overflow-hidden"
         }`,
         roboto.variable,
         poppins.variable,

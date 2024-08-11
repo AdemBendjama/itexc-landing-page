@@ -10,7 +10,7 @@ function Navbar() {
   const { isSideBarOpen, toggleSideBar } = useSideBarContext();
   return (
     <div className="bg-white fixed top-0 z-50 w-screen">
-      <div className="2xl:w-[1240px] 2xl:mx-auto xl:mx-[70px] lg:mx-[3%] mx-[1rem] h-[4.375rem] flex justify-between items-center font-poppins">
+      <div className="2xl:w-[1240px] 2xl:mx-auto xl:mx-[70px] lg:mx-[3%] mx-[1rem] py-4 flex justify-between items-center font-poppins">
         <div className="flex gap-[1.25rem] items-center">
           <NavbarSidebar
             isSideBarOpen={isSideBarOpen}
