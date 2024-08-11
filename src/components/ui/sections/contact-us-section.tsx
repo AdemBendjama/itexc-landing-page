@@ -3,7 +3,7 @@ import ContactUsForm from "@/components/forms/contact-us-form";
 function ContactUsSection() {
   return (
     <div className="bg-white text-black">
-      <div className="lg:pt-[8rem] sm:pt-24 pt-16 pb-12 lg:px-[2.125rem] sm:flex-row flex-col flex gap-[3rem] 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] sm:mx-[1.5rem] mx-[1rem]">
+      <div className="lg:pt-[8rem] sm:pt-24 pt-16 pb-12 lg:px-[2.125rem] sm:flex-row flex-col flex gap-[3rem] wrapper">
         <div className="basis-2/3 flex flex-col gap-[1.875rem]">
           <div className="flex flex-col sm:gap-[1.5rem] gap-4">
             <span className="lg:text-[3rem] sm:text-[2.5rem] text-[2rem] font-normal leading-[120%]">

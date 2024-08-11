@@ -4,7 +4,7 @@ import NewsletterForm from "../forms/newsletter-form";
 function Footer() {
   return (
     <div className="bg-white text-black">
-      <div className="flex flex-col gap-[2.25rem] sm:py-8 pb-8 lg:px-8 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] sm:mx-[1.5rem] mx-[1rem]">
+      <div className="flex flex-col gap-[2.25rem] sm:py-8 pb-8 lg:px-8 wrapper">
         <div className="flex sm:justify-between justify-center">
           <span className="sm:block hidden lg:text-[2.625rem] sm:text-[2.25rem] text-[2rem] font-semibold leading-[150%]">
             Connect with us

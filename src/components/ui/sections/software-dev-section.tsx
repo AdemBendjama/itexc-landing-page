@@ -4,7 +4,7 @@ import { Button } from "../button";
 function SoftwareDevSection() {
   return (
     <div className="bg-white text-black font-poppins font-normal">
-      <div className="flex sm:flex-row flex-col lg:gap-[5rem] sm:gap-12 gap-8 items-center sm:pt-[6.25rem] sm:pb-0 pt-36 pb-12 sm:h-[780px] 2xl:w-[1300px] 2xl:mx-auto xl:mx-[4.375rem] lg:mx-[5%] sm:mx-[1.5rem] mx-[1rem]">
+      <div className="flex sm:flex-row flex-col lg:gap-[5rem] sm:gap-12 gap-8 items-center sm:pt-[6.25rem] sm:pb-0 pt-36 pb-12 sm:h-[780px] wrapper">
         <div className="flex-1 flex flex-col gap-[1rem]">
           <span className="font-semibold text-base">OUR SPECIALTY</span>
           <span className="font-bold lg:text-[3rem] sm:text-[2.25rem] text-[1.5rem] leading-[120%]">

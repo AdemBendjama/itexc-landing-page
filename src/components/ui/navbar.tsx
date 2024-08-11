@@ -1,21 +1,15 @@
-"use client";
 import PhoneIcon from "@/components/icons/phone-icon";
 import { Button } from "@/components/ui/button";
-import { ChevronDown, MenuIcon } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import NavbarSidebar from "./navbar-sidebar";
-import { useSideBarContext } from "@/context/sidebar-context-provider";
 
 function Navbar() {
-  const { isSideBarOpen, toggleSideBar } = useSideBarContext();
   return (
     <div className="bg-white fixed top-0 z-50 w-screen">
-      <div className="2xl:w-[1240px] 2xl:mx-auto xl:mx-[70px] lg:mx-[3%] mx-[1rem] py-4 flex justify-between items-center font-poppins">
+      <div className="wrapper-navbar py-4 flex justify-between items-center font-poppins">
         <div className="flex gap-[1.25rem] items-center">
-          <NavbarSidebar
-            isSideBarOpen={isSideBarOpen}
-            toggleSideBar={toggleSideBar}
-          />
+          <NavbarSidebar />
           <Image
             src="/ITEXC-GROUP-V-WORDMARK.svg"
             alt="watermark"

@@ -1,13 +1,14 @@
+"use client";
 import { ChevronRight, MenuIcon } from "lucide-react";
 import Link from "next/link";
+import { useState } from "react";
 
-function NavbarSidebar({
-  isSideBarOpen,
-  toggleSideBar,
-}: {
-  isSideBarOpen: boolean;
-  toggleSideBar: () => void;
-}) {
+function NavbarSidebar() {
+  const [isSideBarOpen, setIsSideBarOpen] = useState(false);
+
+  const toggleSideBar = () => {
+    setIsSideBarOpen((prevState) => !prevState);
+  };
   //
   const animateSideBar = isSideBarOpen
     ? "translate-x-0 opacity-100 transition-all duration-300 ease-in-out"
@@ -16,7 +17,7 @@ function NavbarSidebar({
   //
   const backgroundOverlay = isSideBarOpen && (
     <div
-      className="w-screen h-screen bg-black bg-opacity-70 absolute top-[4.375rem]"
+      className="w-screen h-screen bg-black bg-opacity-70 absolute top-16 disable-scroll"
       onClick={toggleSideBar}
     />
   );
@@ -27,7 +28,7 @@ function NavbarSidebar({
 
       {/* animated pop out sidebar */}
       <div
-        className={`absolute left-0 top-[3.75rem] bg-white text-black text-lg font-bold h-screen sm:w-[16rem] w-[50%] ${animateSideBar}`}
+        className={`absolute left-0 top-16 bg-white text-black text-lg font-bold h-screen sm:w-[16rem] w-[50%] ${animateSideBar}`}
       >
         <ul className="flex flex-col gap-[1.25rem] text-base font-normal leading-[1.5rem] p-5">
           <li>Home</li>
