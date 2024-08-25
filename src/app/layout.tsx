@@ -1,7 +1,8 @@
-import type { Metadata } from "next";
 import "@/styles/globals.css";
+
 import Body from "@/components/ui/body";
 import Footer from "@/components/ui/footer";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "ITEXC Group | Persue excellence",

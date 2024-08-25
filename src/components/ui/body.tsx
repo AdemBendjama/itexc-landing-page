@@ -1,5 +1,6 @@
-import { cn } from "@/lib/utils";
 import { Mulish, Poppins, Roboto } from "next/font/google";
+
+import { cn } from "@/lib/utils";
 
 const roboto = Roboto({
   subsets: ["latin"],

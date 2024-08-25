@@ -1,6 +1,7 @@
 "use client";
+
 import { ChevronRight, MenuIcon } from "lucide-react";
-import Link from "next/link";
+
 import { useState } from "react";
 
 function NavbarSidebar() {
@@ -28,27 +29,27 @@ function NavbarSidebar() {
 
       {/* animated pop out sidebar */}
       <div
-        className={`absolute left-0 top-16 bg-white text-black text-lg font-bold h-screen sm:w-[16rem] w-[50%] ${animateSideBar}`}
+        className={`absolute left-0 top-16 bg-white text-black text-lg font-bold h-screen sm:w-64 w-[50%] ${animateSideBar}`}
       >
-        <ul className="flex flex-col gap-[1.25rem] text-base font-normal leading-[1.5rem] p-5">
+        <ul className="flex flex-col gap-5 text-base font-normal leading-6 p-5">
           <li>Home</li>
-          <li className="flex gap-[3px] items-center">
+          <li className="flex gap-1 items-center">
             <span>Services</span>
             <ChevronRight size={14} className="mt-[2px]" />
           </li>
-          <li className="flex gap-[3px] items-center">
+          <li className="flex gap-1 items-center">
             <span>Our Teams</span>
             <ChevronRight size={14} className="mt-[2px]" />
           </li>
-          <li className="flex gap-[3px] items-center">
+          <li className="flex gap-1 items-center">
             <span>Digito</span>
             <ChevronRight size={14} className="mt-[2px]" />
           </li>
-          <li className="flex gap-[3px] items-center">
+          <li className="flex gap-1 items-center">
             <span>Consulting</span>
             <ChevronRight size={14} className="mt-[2px]" />
           </li>
-          <li className="flex gap-[3px] items-center">
+          <li className="flex gap-1 items-center">
             <span>More</span>
             <ChevronRight size={14} className="mt-[2px]" />
           </li>

@@ -1,6 +1,6 @@
-import Image from "next/image";
-import { Button } from "../button";
 import { ArrowRight } from "lucide-react";
+import { Button } from "../button";
+import Image from "next/image";
 
 function AcademySection() {
   return (

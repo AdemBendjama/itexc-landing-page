@@ -1,11 +1,14 @@
 "use client";
-import Image from "next/image";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "@/styles/slider-arrows.css";
-import Slider from "react-slick";
+
 import { Avatar, AvatarFallback, AvatarImage } from "../avatar";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+
+import Image from "next/image";
+import Slider from "react-slick";
 
 interface ArrowProps {
   className?: string;
