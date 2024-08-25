@@ -66,13 +66,13 @@ function WhatWeDoSection() {
     <div className="bg-submit-second text-submit-foreground font-poppins">
       <div className="h-[500px] relative wrapper">
         <div className="absolute top-0">
-          <div className="lg:w-[9.375rem] lg:h-[13.125rem] sm:w-[7rem] sm:h-[9rem] w-[3rem] h-[4rem] relative">
+          <div className="lg:w-40 lg:h-52 sm:w-28 sm:h-36 w-12 h-16 relative">
             <Image src="/group-mark.svg" alt="group mark img" fill={true} />
           </div>
         </div>
         <div className="h-full flex items-center justify-center">
-          <div className="z-10 w-[43rem] flex flex-col items-center justify-center gap-[0.5rem] text-center">
-            <span className="font-semibold sm:text-[3rem] text-[2rem] leading-[120%]">
+          <div className="z-10 max-w-[688px] flex flex-col items-center justify-center gap-2 text-center">
+            <span className="font-semibold sm:text-5xl text-4xl leading-[120%]">
               EXPLORE OUR{" "}
               <span className="bg-gradient-to-r from-[#3CCCAE] via-[#F47B2E] to-[#FE0F9E] bg-clip-text text-transparent">
                 GROUP
@@ -84,48 +84,48 @@ function WhatWeDoSection() {
             <div className="sm:w-[38rem] w-[14rem]">
               <Slider {...settings}>
                 <div>
-                  <div className="flex items-center justify-center w-[7rem] h-[7rem]">
-                    <Avatar className="w-[5.25rem] h-[5.25rem]">
+                  <div className="flex items-center justify-center w-28 h-28">
+                    <Avatar className="w-20 h-20">
                       <AvatarImage src="https://github.com/shadcn.png" />
                       <AvatarFallback>CN</AvatarFallback>
                     </Avatar>
                   </div>
                 </div>
                 <div>
-                  <div className="flex items-center justify-center w-[7rem] h-[7rem]">
-                    <Avatar className="w-[5.25rem] h-[5.25rem]">
+                  <div className="flex items-center justify-center w-28 h-28">
+                    <Avatar className="w-20 h-20">
                       <AvatarImage src="https://github.com/shadcn.png" />
                       <AvatarFallback>CN</AvatarFallback>
                     </Avatar>
                   </div>
                 </div>
                 <div>
-                  <div className="flex items-center justify-center w-[7rem] h-[7rem]">
-                    <Avatar className="w-[5.25rem] h-[5.25rem]">
+                  <div className="flex items-center justify-center w-28 h-28">
+                    <Avatar className="w-20 h-20">
                       <AvatarImage src="https://github.com/shadcn.png" />
                       <AvatarFallback>CN</AvatarFallback>
                     </Avatar>
                   </div>
                 </div>
                 <div>
-                  <div className="flex items-center justify-center w-[7rem] h-[7rem]">
-                    <Avatar className="w-[5.25rem] h-[5.25rem]">
+                  <div className="flex items-center justify-center w-28 h-28">
+                    <Avatar className="w-20 h-20">
                       <AvatarImage src="https://github.com/shadcn.png" />
                       <AvatarFallback>CN</AvatarFallback>
                     </Avatar>
                   </div>
                 </div>
                 <div>
-                  <div className="flex items-center justify-center w-[7rem] h-[7rem]">
-                    <Avatar className="w-[5.25rem] h-[5.25rem]">
+                  <div className="flex items-center justify-center w-28 h-28">
+                    <Avatar className="w-20 h-20">
                       <AvatarImage src="https://github.com/shadcn.png" />
                       <AvatarFallback>CN</AvatarFallback>
                     </Avatar>
                   </div>
                 </div>
                 <div>
-                  <div className="flex items-center justify-center w-[7rem] h-[7rem]">
-                    <Avatar className="w-[5.25rem] h-[5.25rem]">
+                  <div className="flex items-center justify-center w-28 h-28">
+                    <Avatar className="w-20 h-20">
                       <AvatarImage src="https://github.com/shadcn.png" />
                       <AvatarFallback>CN</AvatarFallback>
                     </Avatar>
